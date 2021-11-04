@@ -20,8 +20,8 @@ package endpoint
 import (
 	"log"
 
+	"github.com/go-mysql-org/go-mysql/mysql"
 	"github.com/pingcap/errors"
-	"github.com/siddontang/go-mysql/mysql"
 
 	"go-mysql-transfer/global"
 	"go-mysql-transfer/metrics"

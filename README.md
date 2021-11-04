@@ -165,7 +165,7 @@ server_id=1 # 配置 MySQL replaction 需要定义，不要和 go-mysql-transfer
 
 # 感谢
 
-* [go-mysql](github.com/siddontang/go-mysql)
+* [go-mysql](github.com/go-mysql-org/go-mysql)
 
 * [go-mysql-elasticsearch](https://github.com/siddontang/go-mysql-elasticsearch)
 

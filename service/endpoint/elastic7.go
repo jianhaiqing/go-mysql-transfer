@@ -22,10 +22,10 @@ import (
 	"log"
 	"sync"
 
+	"github.com/go-mysql-org/go-mysql/canal"
+	"github.com/go-mysql-org/go-mysql/mysql"
 	"github.com/juju/errors"
 	"github.com/olivere/elastic/v7"
-	"github.com/siddontang/go-mysql/canal"
-	"github.com/siddontang/go-mysql/mysql"
 
 	"go-mysql-transfer/global"
 	"go-mysql-transfer/metrics"
@@ -122,7 +122,7 @@ func (s *Elastic7Endpoint) updateIndexMapping(rule *global.Rule) error {
 		return err
 	}
 
-	if ret[rule.ElsIndex]==nil{
+	if ret[rule.ElsIndex] == nil {
 		return nil
 	}
 	retIndex := ret[rule.ElsIndex].(map[string]interface{})

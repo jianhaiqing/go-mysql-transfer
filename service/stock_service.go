@@ -19,8 +19,8 @@ package service
 
 import (
 	"fmt"
+	"github.com/go-mysql-org/go-mysql/canal"
 	"github.com/juju/errors"
-	"github.com/siddontang/go-mysql/canal"
 	"go.uber.org/atomic"
 	"log"
 	"regexp"

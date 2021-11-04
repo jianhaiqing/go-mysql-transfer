@@ -18,8 +18,8 @@
 package luaengine
 
 import (
+	"github.com/go-mysql-org/go-mysql/canal"
 	"github.com/juju/errors"
-	"github.com/siddontang/go-mysql/canal"
 	"github.com/yuin/gopher-lua"
 
 	"go-mysql-transfer/global"
