@@ -23,3 +23,5 @@ COPY --from=compiler /app/publish .
 EXPOSE 8060
 
 ENTRYPOINT ["./transfer"]
+
+# test user email
